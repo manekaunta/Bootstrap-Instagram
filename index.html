@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class=" me-auto mb-2 mb-lg-0">
+            
+            </ul>
+            <div class="d-flex">
+             <!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Create a new post
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Create New Post</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h5>Caption:</h5>
+          <textarea id="w3review" name="w3review" rows="4" cols="50">Add a caption here</textarea>
+          <div class="row">
+            <button style="width: 15px; border: none; background: none;"><i class="col col-lg-1 ml-2 fa fa-camera" aria-hidden="true"></i></button>
+            <button style="width: 15px; border: none; margin-left: 6px; background: none;"><i class="col fa fa-map-marker" aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Publish</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa fa-cog" aria-hidden="true"></i>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Profile</a></li>
+      <li><a class="dropdown-item" href="#">Accessibility</a></li>
+      <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+      <div class="line" style="height: 1px; background: lightgray;"></div>
+      <li><a class="dropdown-item text-danger" href="#">Logout</a></li>
+    </ul>
+  </div>
+            </div>
+          </div>
+        </div>
+      </nav> 
+        <nav>
+            <div class="nav nav-tabs justify-content-center id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa fa-th" aria-hidden="true"></i>
+              </button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa fa-square" aria-hidden="true"></i>
+              </button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                <div class="container-fluid pl-4 pr-4">
+                    <div class="row">
+                        <div class="pt-2 col-4">
+                            <img style="width: 99%; height: 400px; padding-left: 2px" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"/>
+                        </div>
+                        <div class="pt-2 col-4">
+                            <img style="width: 99%; height: 400px; padding-left: 2px" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"/>
+                        </div>
+                        <div class="pt-2 col-4">
+                            <img style="width: 99%; height: 400px; padding-left: 2px" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="pt-4 col-4">
+                            <img style="width: 99%; height: 400px; padding-left: 2px" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"/>
+                        </div>
+                        <div class="pt-4 col-4">
+                            <img style="width: 99%; height: 400px; padding-left: 2px" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"/>
+                        </div>
+                        <div class="pt-4 col-4">
+                            <img style="width: 99%; height: 400px; padding-left: 2px" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="pt-4 col-4">
+                            <img style="width: 99%; height: 400px; padding-left: 2px" src="https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712__340.jpg"/>
+                        </div>
+                        <div class="pt-4 col-4">
+                            <img style="width: 99%; height: 400px; padding-left: 2px" src="https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712__340.jpg"/>
+                        </div>
+                        <div class="pt-4 col-4">
+                            <img style="width: 99%; height: 400px; padding-left: 2px" src="https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712__340.jpg"/>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+              <div class="post pt-2 w-50 h-50 mx-auto border-secondary">
+              <div class=" h-100 d-flex justify-content-between post-header">
+                <h3 class="float-left post-title">Beautiful Sunset</h3>
+                <p class="mr-auto post-date">01/17</p>
+              </div>
+              <img class="mx-auto" style="width: 100%; height: 400px; padding-left: 2px" src="https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712__340.jpg"/>
+              <div style="height: 100px;"class="post-footer h-75">
+                <p><b>204 Likes</b><br>This is an example of a very good photo that you can post on Instagram</br></p>
+              </div>
+            </div>
+            <div class="post pt-2 w-50 h-50 mx-auto border-secondary">
+              <div class=" h-100 d-flex justify-content-between post-header">
+                <h3 class="float-left post-title">Reflections</h3>
+                <p class="mr-auto post-date">01/28</p>
+              </div>
+              <img class="mx-auto" style="width: 100%; height: 400px; padding-left: 2px" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"/>
+              <div class="post-footer h-75">
+                <p><b>150 Likes</b><br>Beautiful Reflecitons</br></p>
+              </div>
+            </div>
+            <div style="margin-top: 20px; "class="post pt-2 w-50 h-50 mx-auto border-secondary">
+              <div class=" h-100 d-flex justify-content-between post-header">
+                <h3 class="float-left post-title">Droplets</h3>
+                <p class="mr-auto post-date">01/17</p>
+              </div>
+              <img class="mx-auto" style="width: 100%; height: 400px; padding-left: 2px" src="https://images.unsplash.com/photo-1471879832106-c7ab9e0cee23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80">
+              <div class="post-footer h-75">
+                <p><b>300 Likes</b><br>Breathtaking capture of a droplet forming</br></p>
+              </div>
+            </div>
+            </div>
+          </div>
+</body>
+</html>
